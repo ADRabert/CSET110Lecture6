@@ -2,21 +2,90 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
+} @font-face {
+	font-family: "Ionicons";
+	src: url("fonts/ionicons.ttf");
+	font-style: normal;
+	font-weight: normal;
+} html {
+	color: #555;
+	font-family: "Lato";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 300;
+	text-rendering: optimizeLegibility;
 } header {
-	background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("img/hero.jpg");
+	background-attachment: fixed;
+	background-image: linear-gradient(#000000b2, #000000b2), url("img/hero.jpg");
 	background-repeat: no-repeat;
-	background-size: 100%;
+	background-size: cover;
+	color: #fff;
 	height: 100%;
-	width: 100%;
+	padding-top: 20px;
 } #titlebar {
 	display: flex;
-	max-width: 1140px;
+	font-size: 20px;
 } #titlebar img {
 	height: 100px;
 	margin: 0 auto;
 	width: auto;
-} #titlebar .buttons {
+} #nav-buttons {
 	height: 100px;
-	margin: 0 auto;
+	margin: 40px auto 0 auto;
 	text-align: center;
+} #nav-buttons a {
+	color: unset;
+	margin: 0 24px;
+	padding: 12px 0;
+	text-decoration: unset;
+} #nav-buttons a:hover {
+	border-bottom: 1px solid #e67e22;
+} #on-button, #off-button {
+	border: 1px solid #e67e27;
+	border-radius: 32px;
+	padding: 8px 24px;
+	text-decoration: unset;
+} #text {
+	left: 40%;
+	max-width: 1140px;
+	position: absolute;
+	top: 50%;
+	transform: translate(-40%, -50%);
+} #text h1 {
+	font-size: 48px;
+	font-weight: unset;
+} #on-button {
+	background-color: #e67e22;
+	color: unset;
+	margin-right: 16px;
+} #on-button:hover, #off-button:hover {
+	background-color: #cf6d17;
+} #off-button {
+	border: 1px solid #e67e27;
+	border-radius: 32px;
+	color: #e67e27;
+} #off-button:hover {
+	color: unset;
+} #intro h1 {
+	font-size: 32px;
+	font-weight: 300;
+	margin-top: 64px;
+	text-align: center;
+} #line {
+	background-color: #e67622;
+	border: none;
+	height: 1px;
+	margin: 24px auto;
+	width: 100px;
+} #intro p {
+	margin: 0 33.333% 32px 33.333%;
+} #blocks {
+	display: flex;
+	justify-content: space-evenly;
+	margin: 0 16.667%;
+} #intro h2 {
+	font-size: 24px;
+	font-weight: 300;
+} #blocks p {
+	font-size: 20px;
 }
