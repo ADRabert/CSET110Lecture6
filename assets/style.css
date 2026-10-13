@@ -24,7 +24,6 @@
 	padding-top: 20px;
 } #titlebar {
 	display: flex;
-	font-size: 20px;
 } #titlebar img {
 	height: 100px;
 	margin: 0 auto;
@@ -52,7 +51,7 @@
 	top: 50%;
 	transform: translate(-40%, -50%);
 } #text h1 {
-	font-size: 48px;
+	font-size: 240%;
 	font-weight: unset;
 } #on-button {
 	background-color: #e67e22;
@@ -67,7 +66,7 @@
 } #off-button:hover {
 	color: unset;
 } #intro h1 {
-	font-size: 32px;
+	font-size: 160%;
 	font-weight: 300;
 	margin-top: 64px;
 	text-align: center;
@@ -84,8 +83,6 @@
 	justify-content: space-evenly;
 	margin: 0 16.667%;
 } #intro h2 {
-	font-size: 24px;
+	font-size: 120%;
 	font-weight: 300;
-} #blocks p {
-	font-size: 20px;
 }
