@@ -7,36 +7,128 @@
 		<nav id="titlebar">
 			<img alt="Omnifood Logo" src="assets/img/logo-white.png">
 			<ul id="nav-buttons">
-				<a href="#">FOOD DELIVERY</a>
-				<a href="#">HOW IT WORKS</a>
-				<a href="#">OUR CITIES</a>
-				<a href="#">SIGN UP</a>
+				<li><a href="#">Food delivery</a></li>
+				<li><a href="#">How it works</a></li>
+				<li><a href="#">Our cities</a></li>
+				<li><a href="#">Sign up</a></li>
 			</ul>
 		</nav>
 		<article id="text">
-			<h1>
-				GOODBYE JUNK FOOD.
-				<br>
-				HELLO SUPER HEALTHY MEALS.
-			</h1>
+			<h1>Goodbye junk food.</h1>
+			<h1>Hello super healthy meals.</h1>
 			<br>
 			<a href="#" id="on-button">I'm hungry</a>
 			<a href="#" id="off-button">Show me more</a>
 		</article>
 	</header>
 	<article id="intro">
-		<h1>GET FOOD FAST — NOT FAST FOOD</h1>
-		<hr id="line">
-		<p>Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+		<h2>Get food fast — not fast food</h2>
+		<p id="description">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
 		<figure id="blocks">
-			<div class="block">
-				<h2>This is a test.</h2>
+			<div class="block"> <!-- ion-icons library doesn't work anymore for some reason -->
+				<img alt="Calendar" src="assets/img/calendar-outline.svg">
+				<h3>Up to 365 days/year</h3>
+				<p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
 			</div><div class="block">
-				<h2>This is also a test.</h2>
+				<img alt="Stopwatch" src="assets/img/stopwatch-outline.svg">
+				<h3>Ready in 20 minutes</h3>
+				<p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
 			</div><div class="block">
-				<h2>This is another test.</h2>
+				<img alt="Leaf" src="assets/img/leaf-outline.svg">
+				<h3>100% organic</h3>
+				<p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
 			</div><div class="block">
-				<h2>Testy testy test.</h2>
+				<img alt="Cart" src="assets/img/cart-outline.svg">
+				<h3>Order anything</h3>
+				<p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+			</div>
+		</figure>
+	</article><article id="favorites">
+		<ul id="row">
+			<li><img alt="Korean bibimbap with egg and vegetables" src="assets/img/1.jpg"></li>
+			<li><img alt="Simple italian pizza with cherry tomatoes" src="assets/img/2.jpg"></li>
+			<li><img alt="Chicken breast steak with vegetables" src="assets/img/3.jpg"></li>
+			<li><img alt="Autumn pumpkin soup" src="assets/img/4.jpg"></li>
+		</ul><ul id="row">
+			<li><img alt="Paleo beef steak with vegetables" src="assets/img/5.jpg"></li>
+			<li><img alt="Healthy baguette with egg and vegetables" src="assets/img/6.jpg"></li>
+			<li><img alt="Burger with cheddar and bacon" src="assets/img/7.jpg"></li>
+			<li><img alt="Granola with cherries and strawberries" src="assets/img/8.jpg"></li>
+		</ul>
+	</article><article id="features">
+		<h2>How it works — Simple as 1, 2, 3</h2>
+		<figure id="box">
+			<img alt="iPhone with Omnifood App" id="app-phone" src="assets/img/app-iPhone.png">
+			<figure id="right-sidebar">
+				<div class="bullet">
+					<h3 class="point">1</h3>
+					<p>Choose the subscription plan that best fits your needs and sign up today.</p>
+				</div><div class="bullet">
+					<h3 class="point">2</h3>
+					<p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+				</div><div class="bullet">
+					<h3 class="point">3</h3>
+					<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+				</div>
+			<a class="app-button" href="#"><img alt="Apple App Store" src="assets/img/download-app.svg"></a>
+			<a class="app-button" href="#"><img alt="Google Play Store" src="assets/img/download-app-android.png"></a>
+			</figure>
+		</figure>
+	</article><article id="cities">
+		<h2>We're currently in these cities</h2>
+		<figure id="cards">
+			<div class="card">
+				<img alt="Lisbon" src="assets/img/lisbon-3.jpg">
+				<h3>Lisbon</h3>
+				<div class="label">
+					<img alt="Person" src="assets/img/person.svg">
+					<p>1600+ happy eaters</p>
+				</div><div class="label">
+					<img alt="Star" src="assets/img/star.svg">
+					<p>60+ top chefs</p>
+				</div><div class="label">
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_lx</a></p>
+				</div>
+			</div><div class="card">
+				<img alt="San Francisco" src="assets/img/san-francisco.jpg">
+				<h3>San Francisco</h3>
+				<div class="label">
+					<img alt="Person" src="assets/img/person.svg">
+					<p>3700+ happy eaters</p>
+				</div><div class="label">
+					<img alt="Star" src="assets/img/star.svg">
+					<p>160+ top chefs</p>
+				</div><div class="label">
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_sf</a></p>
+				</div>
+			</div><div class="card">
+				<img alt="Berlin" src="assets/img/berlin.jpg">
+				<h3>Berlin</h3>
+				<div class="label">
+					<img alt="Person" src="assets/img/person.svg">
+					<p>2300+ happy eaters</p>
+				</div><div class="label">
+					<img alt="Star" src="assets/img/star.svg">
+					<p>110+ top chefs</p>
+				</div><div class="label">
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_berlin</a></p>
+				</div>
+			</div><div class="card">
+				<img alt="London" src="assets/img/london.jpg">
+				<h3>London</h3>
+				<div class="label">
+					<img alt="Person" src="assets/img/person.svg">
+					<p>1200+ happy eaters</p>
+				</div><div class="label">
+					<img alt="Star" src="assets/img/star.svg">
+					<p>50+ top chefs</p>
+				</div><div class="label">
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_london</a></p>
+				</div>
 			</div>
 		</figure>
 	</article>
