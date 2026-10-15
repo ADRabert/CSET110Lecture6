@@ -64,12 +64,8 @@
 	color: #e67e27;
 } #off-button:hover {
 	color: unset;
-} #intro h1 {
-	font-size: 160%;
-	padding-top: 60px;
-	text-align: center;
 } h2 {
-	font-size: 120%;
+	font-size: 160%;
 	padding-top: 60px;
 	text-align: center;
 } h2:after {
@@ -79,6 +75,8 @@
 	height: 1px;
 	margin: 30px auto;
 	width: 100px;
+} h3 {
+	font-size: 120%;
 } #description {
 	margin: 0 26.667%;
 } #blocks {
@@ -100,7 +98,6 @@
 	overflow: hidden;
 } #favorites img {
 	display: block;
-	object-fit: cover;
 	opacity: .7;
 	transition: transform 0.5s, opacity 0.5s;
 	transform: scale(1.15);
@@ -145,6 +142,7 @@
 	padding-bottom: 60px;
 } #cards {
 	display: flex;
+	min-width: 900px;
 } .card {
 	margin: 0 10px;
 } .card img {
@@ -157,4 +155,33 @@
 	width: 24px;
 } .card h3 {
 	margin: 16px 0;
+} #testimonials {
+	background-image: linear-gradient(#000000b2, #000000b2), url("img/back-customers.jpg");
+	color: #fff;
+} .quoteblock {
+	display: inline-block;
+	font-style: italic;
+	line-height: 145%;
+	margin-top: 10px;
+	max-width: 380px;
+	padding: 2%;
+	position: relative;
+	width: 32%;
+} .quoteblock:before {
+	content: "\201C";
+	display: block;
+	font-size: 500%;
+	left: -5px;
+	position: absolute;
+	top: -5px;
+} blockquote {
+	margin-bottom: 40px;
+} .customer {
+	display: flex;
+} .customer img {
+	border-radius: 25px;
+	margin-right: 10px;
+	width: 50px;
+} .customer p {
+	margin-top: 10px;
 }
