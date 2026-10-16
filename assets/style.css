@@ -167,6 +167,10 @@
 	padding: 2%;
 	position: relative;
 	width: 32%;
+} #quoteblocks {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
 } .quoteblock:before {
 	content: "\201C";
 	display: block;
