@@ -232,6 +232,11 @@
 	max-width: 1140px;
 } #requests p {
 	height: 40px;
+} #inputs input, #inputs select {
+	height: 30px;
+	margin: 0 0 10px 10px;
+} #inputs textarea {
+	margin-left: 10px;
 } #inputs label {
 	margin-left: unset;
 } #inputs label input {
