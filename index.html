@@ -17,8 +17,8 @@
 			<h1>Goodbye junk food.</h1>
 			<h1>Hello super healthy meals.</h1>
 			<br>
-			<a href="#" id="on-button">I'm hungry</a>
-			<a href="#" id="off-button">Show me more</a>
+			<a href="#" class="on-button">I'm hungry</a>
+			<a href="#" class="off-button">Show me more</a>
 		</article>
 	</header>
 	<article id="intro">
@@ -78,57 +78,65 @@
 		<h2>We're currently in these cities</h2>
 		<figure id="cards">
 			<div class="card">
-				<img alt="Lisbon" src="assets/img/lisbon-3.jpg">
+				<div class="picture">
+					<img alt="Lisbon" src="assets/img/lisbon-3.jpg">
+				</div>
 				<h3>Lisbon</h3>
-				<div class="label">
+				<label>
 					<img alt="Person" src="assets/img/person.svg">
 					<p>1600+ happy eaters</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Star" src="assets/img/star.svg">
 					<p>60+ top chefs</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Twitter" src="assets/img/twitter.svg">
 					<p><a href="#">@omnifood_lx</a></p>
-				</div>
+				</label>
 			</div><div class="card">
-				<img alt="San Francisco" src="assets/img/san-francisco.jpg">
+				<div class="picture">
+					<img alt="San Francisco" src="assets/img/san-francisco.jpg">
+				</div>
 				<h3>San Francisco</h3>
-				<div class="label">
+				<label>
 					<img alt="Person" src="assets/img/person.svg">
 					<p>3700+ happy eaters</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Star" src="assets/img/star.svg">
 					<p>160+ top chefs</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Twitter" src="assets/img/twitter.svg">
 					<p><a href="#">@omnifood_sf</a></p>
-				</div>
+				</label>
 			</div><div class="card">
-				<img alt="Berlin" src="assets/img/berlin.jpg">
+				<div class="picture">
+					<img alt="Berlin" src="assets/img/berlin.jpg">
+				</div>
 				<h3>Berlin</h3>
-				<div class="label">
+				<label>
 					<img alt="Person" src="assets/img/person.svg">
 					<p>2300+ happy eaters</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Star" src="assets/img/star.svg">
 					<p>110+ top chefs</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Twitter" src="assets/img/twitter.svg">
 					<p><a href="#">@omnifood_berlin</a></p>
-				</div>
+				</label>
 			</div><div class="card">
-				<img alt="London" src="assets/img/london.jpg">
+				<div class="picture">
+					<img alt="London" src="assets/img/london.jpg">
+				</div>
 				<h3>London</h3>
-				<div class="label">
+				<label>
 					<img alt="Person" src="assets/img/person.svg">
 					<p>1200+ happy eaters</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Star" src="assets/img/star.svg">
 					<p>50+ top chefs</p>
-				</div><div class="label">
+				</label><label>
 					<img alt="Twitter" src="assets/img/twitter.svg">
 					<p><a href="#">@omnifood_london</a></p>
-				</div>
+				</label>
 			</div>
 		</figure>
 	</article><article id="testimonials">
@@ -152,6 +160,124 @@
 					<img alt="Customer 3" src="assets/img/customer-3.jpg">
 					<p>Milton Chapman</p>
 				</div>
+			</div>
+		</figure>
+	</article><article id="sales">
+		<h2>Start eating healthy today</h2>
+		<figure id="sales-boxes">
+			<div class="sales-box">
+				<div class="sales-top">
+					<h3>Premium</h3>
+					<p class="price">$399</p><p style="color: #e67e22;">/ month</p>
+					<p>That's only $13.30 per meal</p>
+				</div><div class="sales-center">
+					<label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>1 meal every day</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Order 24/7</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Access to newest creations</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Free delivery</p>
+					</label>
+				</div><div class="sales-bottom">
+					<a class="on-button" href="#" style="margin: 0;">Sign up now</a>
+				</div>
+			</div><div class="sales-box">
+				<div class="sales-top">
+					<h3>Pro</h3>
+					<p class="price">$149</p><p style="color: #e67e22;">/ month</p>
+					<p>That's only $14.90 per meal</p>
+				</div><div class="sales-center">
+					<label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>1 meal 10 days/month</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Order 24/7</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Access to newest creations</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Free delivery</p>
+					</label>
+				</div><div class="sales-bottom">
+					<a class="off-button" href="#">Sign up now</a>
+				</div>
+			</div><div class="sales-box">
+				<div class="sales-top">
+					<h3>Starter</h3>
+					<p class="price" style="margin-bottom: 24px;">$19</p><p style="color: #e67e22;">/ meal</p>
+				</div><div class="sales-center">
+					<label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>1 meal</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Order from 8 am to 12 pm</p>
+					</label><label>
+						<img alt="No" src="assets/img/close.svg" style="margin: 2px 0;">
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Free delivery</p>
+					</label>
+				</div><div class="sales-bottom">
+					<a class="off-button" href="#">Sign up now</a>
+				</div>
+			</div>
+		</figure>
+	</article><article id="contact">
+		<h2>We're happy to hear from you</h2>
+		<figure id="contact-boxes">
+			<!-- <div class="input-area">
+				<p>Name</p>
+				<input type="text" placeholder="Your name">
+			</div><div class="input-area">
+				<p>Email</p>
+				<input type="email" placeholder="Your email">
+			</div><div class="input-area">
+				<p>How did you find us?</p>
+				<select>
+					<option value="friends">Friends</option>
+					<option value="search">Search engine</option>
+					<option value="ad">Advertisement</option>
+					<option value="other">Other</option>
+				</select>
+			</div><div class="input-area">
+				<p>Newsletter?</p>
+				<input id="checkbox" type="checkbox">
+				Yes, please
+			</div><div class="input-area">
+				<p>Drop us a line</p>
+				<textarea placeholder="Your message"></textarea>
+			</div> -->
+			<div id="requests">
+				<p>Name</p>
+				<p>Email</p>
+				<p>How did you find us?</p>
+				<p>Newsletter?</p>
+				<p>Drop us a line</p>
+			</div><div id="inputs">
+				<input placeholder="Your name" type="text">
+				<br>
+				<input placeholder="Your email" type="email">
+				<br>
+				<select>
+					<option value="friends">Friends</option>
+					<option value="search">Search engine</option>
+					<option value="ad">Advertisement</option>
+					<option value="other">Other</option>
+				</select>
+				<label>
+					<input type="checkbox">
+					<p>Yes, please</p>
+				</label>
+				<textarea placeholder="Your message"></textarea>
 			</div>
 		</figure>
 	</article>
