@@ -43,7 +43,7 @@
 				<p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
 			</div>
 		</figure>
-	</article><article id="favorites">
+	</article><article id="favorites"> <!-- TODO: Fix overlapping images when using scale transform -->
 		<ul id="row">
 			<li><img alt="Korean bibimbap with egg and vegetables" src="assets/img/1.jpg"></li>
 			<li><img alt="Simple italian pizza with cherry tomatoes" src="assets/img/2.jpg"></li>
@@ -241,18 +241,18 @@
 				<p>Newsletter?</p>
 				<p>Drop us a line</p>
 			</div><div id="inputs">
-				<input placeholder="Your name" type="text">
+				<input class="textbox" placeholder="Your name" type="text">
 				<br>
-				<input placeholder="Your email" type="email">
+				<input class="textbox" placeholder="Your email" type="email">
 				<br>
-				<select>
+				<select class="textbox">
 					<option value="friends">Friends</option>
 					<option value="search">Search engine</option>
 					<option value="ad">Advertisement</option>
 					<option value="other">Other</option>
 				</select>
 				<label>
-					<input type="checkbox">
+					<input id="checkbox" type="checkbox">
 					<p>Yes, please</p>
 				</label>
 				<textarea placeholder="Your message"></textarea>
