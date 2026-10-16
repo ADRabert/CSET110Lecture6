@@ -228,17 +228,24 @@
 } #contact-boxes {
 	display: flex;
 	justify-content: center;
-	margin: 0 auto;
 } #requests p {
 	height: 40px;
-} #inputs .textbox {
+	margin-right: 40px;
+} input[type=text],
+	input[type=email],
+	select {
 	height: 30px;
 	margin: 0 0 10px 10px;
-	width: 100%;
-} #inputs textarea {
+	width: 480px;
+} textarea {
 	height: 120px;
+	width: 480px;
 	margin: 20px 0 0 10px;
-	width: 100%;
+} input[type=submit] {
+	font-family: unset;
+	font-size: inherit;
+	margin: 20px 0 0 10px;
+	width: 120px;
 } #inputs label input {
 	margin-right: 10px;
 } footer {
