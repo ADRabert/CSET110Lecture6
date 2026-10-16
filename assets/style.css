@@ -236,4 +236,26 @@
 	margin-left: unset;
 } #inputs label input {
 	margin-right: 10px;
+} footer {
+	background-color: #333;
+	display: inline-block;
+	padding: 60px 40px;
+	width: 100%;
+} #links {
+	float: left;
+} #links a {
+	color: #666;
+	margin-right: 20px;
+	text-decoration: unset;
+	transition: color 0.2s;
+} #links a:hover {
+	color: #bbb;
+} #socials {
+	float: right;
+} #socials img {
+	margin: 0 4px;
+	width: 32px;
+} footer p {
+	margin-top: 40px;
+	text-align: center;
 }
