@@ -1,110 +1,265 @@
 <html><head>
-	<link rel="stylesheet" href="assets/style.css">
+	<link href="assets/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:wght@0,100;0,300;0,400;" rel="stylesheet">
 	<title>Omnifood</title>
 </head><body>
 	<header>
 		<nav id="titlebar">
 			<img alt="Omnifood Logo" src="assets/img/logo-white.png">
-
-			<ul class="buttons">
-				<li>delivery</li>
-				<li>how it works</liHOW>
-				<li>our cities</li>
-				<li>sign up</li>
-            </ul>
-            
-         </nav>
-
-         <div class="id5">goodbye junk food. <br>hello super healthy meals</div>
-           
-         
-        <div class="flexcontainer">
-
-            <div class="imhungry">Im hungry</div>
-            <div class="showmemore">Show me more</div>
-         
-        </div>
-		
-
-
-	</header>
-
-    <article>
-        <div>
-            <h2>food fast - not fast food</h2>
-			<hr class="solid-line"></hr>
-        </div>
-
-		<p>Hello, were Omnifood, your new premium food delivery service. We know youre always busy.<br> No time for cooking. So let us take care of that, were really good at it, we promise!</p>
-
-		<div class="icons">
-			<img src="assets/calendar-outline.svg" width="100" height="100">
-			<img src="assets/timer-outline.svg" width="100" height="100">
-			<img src="assets/leaf-outline.svg" width="100" height="100">
-			<img src="assets/checkmark-done-outline.svg" width="100" height="100">
-		</div>
-
-		<div class="dah3">
-			<h3>up to 365 days/year</h3>
-			<h3>ready in 20 minutes</h3>
-			<h3>100% organic</h3>
-			<h3>order anything</h3>
-		</div>
-
-
-		<div class="ptags">
-			<p class="p1">Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if thats your style</p>
-			<p class="p2">Youre only twenty minutes away from your delicous and super healthy meals delivered right to your home. we work with the best chefs in each town to ensure that your 100% happy</p>
-			<p class="p3">All our vegetables are fresh organic and local. Animals are raised withought added hormones or antibiotics. Good for your health, the environment, and it also tatstes better</p>
-			<p class="p4">We dont limit your creativity. which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. its up to you</p>
-		</div>
-
-		<div class="empty"></div> 
-
-
-		<div class="top4div">
-			<img src="assets/img/1.jpg" width="24%" height="35%"> 
-			<img src="assets/img/2.jpg" width="25%" height="35%">
-			<img src="assets/img/3.jpg" width="25%" height="35%">
-			<img src="assets/img/4.jpg" width="25%" height="35%">
-		</div>
-
-		<div class="bottom4div">
-			<img src="assets/img/5.jpg" width="24%" height="35%">
-			<img src="assets/img/6.jpg" width="25%" height="35%">
-			<img src="assets/img/7.jpg" width="25%" height="35%">
-			<img src="assets/img/8.jpg" width="25%" height="35%">
-		</div>
-
-		<div class="empty2"></div>
-
-		<h2 class="headline2">how it works - simple as 1, 2, 3</h2> 
-		<hr class="solidline2"></hr>
-
-		<img class="iphoneimage" src="assets/img/app-iPhone.png">
-
-			<ul class="numberimages">
-			<li class="numbericon1">1. Choose the subscription plan that best fits your<br> needs and sign up today.</li>
-
-			<li class="numbericon2">2. Order your delicious meal using our mobile app or<br> website. Or you can even call us! </li>
-
-			<li class="numbericon3">3. Enjoy your meal after less than<br> 20 minutes. See you the next time!</li>
-
-		<div class="googleplayandplaystore">
-			<img src="assets/img/download-app.svg">
-			<img src="assets/img/download-app-android.png">
-		</div>
+			<ul id="nav-buttons">
+				<li><a href="#">Food delivery</a></li>
+				<li><a href="#">How it works</a></li>
+				<li><a href="#">Our cities</a></li>
+				<li><a href="#">Sign up</a></li>
 			</ul>
-
-			<h2 class="werecurrently">were currently in these citites</h2>
-
-			<div class="empty3"></div>
-
-
-
-    </article>
-
-
+		</nav>
+		<article id="text">
+			<h1>Goodbye junk food.</h1>
+			<h1>Hello super healthy meals.</h1>
+			<br>
+			<a href="#" class="on-button">I'm hungry</a>
+			<a href="#" class="off-button">Show me more</a>
+		</article>
+	</header>
+	<article id="intro">
+		<h2>Get food fast — not fast food</h2>
+		<p id="description">Hello, we’re Omnifood, your new premium food delivery service. We know you’re always busy. No time for cooking. So let us take care of that, we’re really good at it, we promise!</p>
+		<figure id="blocks">
+			<div class="block"> <!-- ion-icons library doesn't work anymore for some reason -->
+				<img alt="Calendar" src="assets/img/calendar-outline.svg">
+				<h3>Up to 365 days/year</h3>
+				<p>Never cook again! We really mean that. Our subscription plans include up to 365 days/year coverage. You can also choose to order more flexibly if that's your style.</p>
+			</div><div class="block">
+				<img alt="Stopwatch" src="assets/img/stopwatch-outline.svg">
+				<h3>Ready in 20 minutes</h3>
+				<p>You're only twenty minutes away from your delicious and super healthy meals delivered right to your home. We work with the best chefs in each town to ensure that you're 100% happy.</p>
+			</div><div class="block">
+				<img alt="Leaf" src="assets/img/leaf-outline.svg">
+				<h3>100% organic</h3>
+				<p>All our vegetables are fresh, organic and local. Animals are raised without added hormones or antibiotics. Good for your health, the environment, and it also tastes better!</p>
+			</div><div class="block">
+				<img alt="Cart" src="assets/img/cart-outline.svg">
+				<h3>Order anything</h3>
+				<p>We don't limit your creativity, which means you can order whatever you feel like. You can also choose from our menu containing over 100 delicious meals. It's up to you!</p>
+			</div>
+		</figure>
+	</article><article id="favorites">
+		<ul id="row">
+			<li><img alt="Korean bibimbap with egg and vegetables" src="assets/img/1.jpg"></li>
+			<li><img alt="Simple italian pizza with cherry tomatoes" src="assets/img/2.jpg"></li>
+			<li><img alt="Chicken breast steak with vegetables" src="assets/img/3.jpg"></li>
+			<li><img alt="Autumn pumpkin soup" src="assets/img/4.jpg"></li>
+		</ul><ul id="row">
+			<li><img alt="Paleo beef steak with vegetables" src="assets/img/5.jpg"></li>
+			<li><img alt="Healthy baguette with egg and vegetables" src="assets/img/6.jpg"></li>
+			<li><img alt="Burger with cheddar and bacon" src="assets/img/7.jpg"></li>
+			<li><img alt="Granola with cherries and strawberries" src="assets/img/8.jpg"></li>
+		</ul>
+	</article><article id="features">
+		<h2>How it works — Simple as 1, 2, 3</h2>
+		<figure id="box">
+			<img alt="iPhone with Omnifood App" id="app-phone" src="assets/img/app-iPhone.png">
+			<figure id="right-sidebar">
+				<div class="bullet">
+					<h3 class="point">1</h3>
+					<p>Choose the subscription plan that best fits your needs and sign up today.</p>
+				</div><div class="bullet">
+					<h3 class="point">2</h3>
+					<p>Order your delicious meal using our mobile app or website. Or you can even call us!</p>
+				</div><div class="bullet">
+					<h3 class="point">3</h3>
+					<p>Enjoy your meal after less than 20 minutes. See you the next time!</p>
+				</div>
+			<a class="app-button" href="#"><img alt="Apple App Store" src="assets/img/download-app.svg"></a>
+			<a class="app-button" href="#"><img alt="Google Play Store" src="assets/img/download-app-android.png"></a>
+			</figure>
+		</figure>
+	</article><article id="cities">
+		<h2>We're currently in these cities</h2>
+		<figure id="cards">
+			<div class="card">
+				<div class="picture">
+					<img alt="Lisbon" src="assets/img/lisbon-3.jpg">
+				</div>
+				<h3>Lisbon</h3>
+				<label>
+					<img alt="Person" src="assets/img/person.svg">
+					<p>1600+ happy eaters</p>
+				</label><label>
+					<img alt="Star" src="assets/img/star.svg">
+					<p>60+ top chefs</p>
+				</label><label>
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_lx</a></p>
+				</label>
+			</div><div class="card">
+				<div class="picture">
+					<img alt="San Francisco" src="assets/img/san-francisco.jpg">
+				</div>
+				<h3>San Francisco</h3>
+				<label>
+					<img alt="Person" src="assets/img/person.svg">
+					<p>3700+ happy eaters</p>
+				</label><label>
+					<img alt="Star" src="assets/img/star.svg">
+					<p>160+ top chefs</p>
+				</label><label>
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_sf</a></p>
+				</label>
+			</div><div class="card">
+				<div class="picture">
+					<img alt="Berlin" src="assets/img/berlin.jpg">
+				</div>
+				<h3>Berlin</h3>
+				<label>
+					<img alt="Person" src="assets/img/person.svg">
+					<p>2300+ happy eaters</p>
+				</label><label>
+					<img alt="Star" src="assets/img/star.svg">
+					<p>110+ top chefs</p>
+				</label><label>
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_berlin</a></p>
+				</label>
+			</div><div class="card">
+				<div class="picture">
+					<img alt="London" src="assets/img/london.jpg">
+				</div>
+				<h3>London</h3>
+				<label>
+					<img alt="Person" src="assets/img/person.svg">
+					<p>1200+ happy eaters</p>
+				</label><label>
+					<img alt="Star" src="assets/img/star.svg">
+					<p>50+ top chefs</p>
+				</label><label>
+					<img alt="Twitter" src="assets/img/twitter.svg">
+					<p><a href="#">@omnifood_london</a></p>
+				</label>
+			</div>
+		</figure>
+	</article><article id="testimonials">
+		<h2>Our customers can't live without us</h2>
+		<figure id="quoteblocks">
+			<div class="quoteblock">
+				<blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+				<div class="customer">
+					<img alt="Customer 1" src="assets/img/customer-1.jpg">
+					<p>Alberto Duncan</p>
+				</div>
+			</div><div class="quoteblock">
+				<blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+				<div class="customer">
+					<img alt="Customer 2" src="assets/img/customer-2.jpg">
+					<p>Joana Silva</p>
+				</div>
+			</div><div class="quoteblock">
+				<blockquote>Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!</blockquote>
+				<div class="customer">
+					<img alt="Customer 3" src="assets/img/customer-3.jpg">
+					<p>Milton Chapman</p>
+				</div>
+			</div>
+		</figure>
+	</article><article id="sales">
+		<h2>Start eating healthy today</h2>
+		<figure id="sales-boxes">
+			<div class="sales-box">
+				<div class="sales-top">
+					<h3>Premium</h3>
+					<p class="price">$399</p><p style="color: #e67e22;">/ month</p>
+					<p>That's only $13.30 per meal</p>
+				</div><div class="sales-center">
+					<label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>1 meal every day</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Order 24/7</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Access to newest creations</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Free delivery</p>
+					</label>
+				</div><div class="sales-bottom">
+					<a class="on-button" href="#" style="margin: 0;">Sign up now</a>
+				</div>
+			</div><div class="sales-box">
+				<div class="sales-top">
+					<h3>Pro</h3>
+					<p class="price">$149</p><p style="color: #e67e22;">/ month</p>
+					<p>That's only $14.90 per meal</p>
+				</div><div class="sales-center">
+					<label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>1 meal 10 days/month</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Order 24/7</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Access to newest creations</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Free delivery</p>
+					</label>
+				</div><div class="sales-bottom">
+					<a class="off-button" href="#">Sign up now</a>
+				</div>
+			</div><div class="sales-box">
+				<div class="sales-top">
+					<h3>Starter</h3>
+					<p class="price" style="margin-bottom: 24px;">$19</p><p style="color: #e67e22;">/ meal</p>
+				</div><div class="sales-center">
+					<label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>1 meal</p>
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Order from 8 am to 12 pm</p>
+					</label><label>
+						<img alt="No" src="assets/img/close.svg" style="margin: 2px 0;">
+					</label><label>
+						<img alt="Yes" src="assets/img/checkmark.svg">
+						<p>Free delivery</p>
+					</label>
+				</div><div class="sales-bottom">
+					<a class="off-button" href="#">Sign up now</a>
+				</div>
+			</div>
+		</figure>
+	</article><article id="contact">
+		<h2>We're happy to hear from you</h2>
+		<figure id="contact-boxes">
+			<div id="requests">
+				<p>Name</p>
+				<p>Email</p>
+				<p>How did you find us?</p>
+				<p>Newsletter?</p>
+				<p>Drop us a line</p>
+			</div><div id="inputs">
+				<input placeholder="Your name" type="text">
+				<br>
+				<input placeholder="Your email" type="email">
+				<br>
+				<select>
+					<option value="friends">Friends</option>
+					<option value="search">Search engine</option>
+					<option value="ad">Advertisement</option>
+					<option value="other">Other</option>
+				</select>
+				<label>
+					<input type="checkbox">
+					<p>Yes, please</p>
+				</label>
+				<textarea placeholder="Your message"></textarea>
+			</div>
+		</figure>
+	</article>
 	<footer>
+		
 	</footer>
 </body></html>
