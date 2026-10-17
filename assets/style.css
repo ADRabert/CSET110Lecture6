@@ -25,7 +25,6 @@
 } #titlebar img {
 	height: 100px;
 	margin: 0 auto;
-	width: auto;
 } #nav-buttons {
 	display: flex;
 	height: 100px;
@@ -82,7 +81,6 @@
 } #blocks {
 	display: flex;
 	margin: 30px auto;
-	justify-self: center;
 	max-width: 1140px;
 } .block {
 	width: 25%;
@@ -95,7 +93,6 @@
 	width: 64px;
 } #favorites {
 	background-color: #000;
-	overflow: hidden;
 } #favorites img {
 	display: block;
 	opacity: .7;
