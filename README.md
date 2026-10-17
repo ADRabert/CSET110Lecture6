@@ -3,7 +3,7 @@
 ## Lecture Info
 This lecture involves diving headfirst into creating a copy of a specific website, without copy-pasting code from the reference.
 
-For this example, the website being cloned is [Omnifood](www.omnifood.net). It contains:
+For this example, the website being cloned is [Omnifood](http://www.omnifood.net). It contains:
 - Header
 - Title with background image
 - Various centered blocks & images
